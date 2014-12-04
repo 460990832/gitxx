@@ -1,0 +1,33 @@
+现把工程源代码放出，有志可以继续维护这个联网软件，请记住Birl
+
+Birl is Ruijie Linux
+
+作者：JessonChan（chinachendongpo@gmail.com//OR//i@moreblue.cn）木瓜无衣：（1401570404@qq.com
+
+
+
+
+这是一个在Ubuntu下打编译好的文件（CodeBlocks，GCC），只要打开birl.cbp就可以打开工程
+
+
+
+
+
+
+
+
+
+
+认证过程
+
+initUserInfo（）来初始化信息
+getUserInfo(char* ,int )来得到用户信息和密码长度
+
+initConfig(char*,char*) 传入认证信息，用户名和密码
+
+int startConnet()开始认证，无法知道是不是认证成功
+int statasConnet()返回认证成功与否，1为成功，0 为不成功
+void keepConnet();保持认证，只有成功认证了才能调用
+char *getServerMsg();返回认证后服务信息------如果认证失败为返回如：密码错误、没有用户名等，如果成功就会显示一个信息如：请到哪哪修改等，你懂的
+
+

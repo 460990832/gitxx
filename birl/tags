@@ -1,0 +1,386 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCOUNT_SIZE	./myconfig.c	30;"	d	file:
+AddressOfEntryPoint	./mycheck.h	/^	DWORD	AddressOfEntryPoint;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+BYTE	./types.h	/^typedef unsigned char BYTE;$/;"	t
+BaseOfCode	./mycheck.h	/^	DWORD	BaseOfCode;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+BaseOfData	./mycheck.h	/^	DWORD	BaseOfData;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+CFG_FILE	./myconfig.c	/^static const char *CFG_FILE = "\/tmp\/mentohust.conf";		\/* 配置文件 *\/$/;"	v	file:
+CSTRING	./types.h	/^typedef char CSTRING[CSTRING_SIZE][CSTRING_LENGTH];$/;"	t
+CSTRING_LENGTH	./types.h	11;"	d
+CSTRING_SIZE	./types.h	10;"	d
+Characteristics	./mycheck.h	/^	DWORD	Characteristics;$/;"	m	struct:_IMAGE_RESOURCE_DIRECTORY
+Characteristics	./mycheck.h	/^	DWORD	Characteristics;$/;"	m	struct:_IMAGE_SECTION_HEADER
+Characteristics	./mycheck.h	/^	WORD	Characteristics;$/;"	m	struct:_IMAGE_FILE_HEADER
+Check	./myfunc.c	/^static int Check(const u_char *md5Seed)	\/* 客户端校验 *\/$/;"	f	file:
+CheckSum	./mycheck.h	/^	DWORD	CheckSum;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+CodePage	./mycheck.h	/^	DWORD	CodePage;$/;"	m	struct:_IMAGE_RESOURCE_DATA_ENTRY
+ComputeHash	./md5.c	/^UCHAR* ComputeHash(UCHAR* src, UINT4 len)$/;"	f
+DATAFILE	./myfunc.c	/^static const char *DATAFILE = "\/etc\/mentohust\/";	\/* 默认数据文件(目录) *\/$/;"	v	file:
+DWORD	./types.h	/^typedef unsigned int DWORD;$/;"	t
+D_DAEMONMODE	./myconfig.c	38;"	d	file:
+D_DHCPMODE	./myconfig.c	37;"	d	file:
+D_DHCPSCRIPT	./myconfig.c	/^static const char *D_DHCPSCRIPT = "dhclient >\/dev\/null";			\/* 默认DHCP脚本 *\/$/;"	v	file:
+D_ECHOINTERVAL	./myconfig.c	34;"	d	file:
+D_MAXFAIL	./myconfig.c	39;"	d	file:
+D_RESTARTWAIT	./myconfig.c	35;"	d	file:
+D_SHOWNOTIFY	./myconfig.c	49;"	d	file:
+D_STARTMODE	./myconfig.c	36;"	d	file:
+D_TIMEOUT	./myconfig.c	33;"	d	file:
+DataDirectory	./mycheck.h	/^	IMAGE_DATA_DIRECTORY DataDirectory[IMAGE_NUMBEROF_DIRECTORY_ENTRIES];$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+DataIsDirectory	./mycheck.h	/^			DWORD	DataIsDirectory:1;$/;"	m	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon6::__anon7
+Decode	./md5.c	/^static void Decode (UINT4 *output, UCHAR *input, UINT4 len)$/;"	f	file:
+DirectoryEntries	./mycheck.h	/^  IMAGE_RESOURCE_DIRECTORY_ENTRY DirectoryEntries[];$/;"	m	struct:_IMAGE_RESOURCE_DIRECTORY
+DllCharacteristics	./mycheck.h	/^	WORD	DllCharacteristics;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+Encode	./md5.c	/^static void Encode (UCHAR *output, UINT4 *input, UINT4 len)$/;"	f	file:
+F	./md5.c	57;"	d	file:
+FF	./md5.c	69;"	d	file:
+FILE_SIZE	./myconfig.c	40;"	d	file:
+FileAlignment	./mycheck.h	/^	DWORD	FileAlignment;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+G	./md5.c	58;"	d	file:
+GG	./md5.c	74;"	d	file:
+H	./md5.c	59;"	d	file:
+HAVE_ICONV_H	./mentohust.c	13;"	d	file:
+HH	./md5.c	79;"	d	file:
+HUSTMOON_DLFUNC_H	./dlfunc.h	7;"	d
+HUSTMOON_MYCONFIG_H	./myconfig.h	9;"	d
+HUSTMOON_MYFUNC_H	./myfunc.h	9;"	d
+HUSTMOON_MYSTATE_H	./mystate.h	9;"	d
+I	./md5.c	60;"	d	file:
+ID_CHALLENGE	./mystate.h	14;"	d
+ID_DHCP	./mystate.h	16;"	d
+ID_DISCONNECT	./mystate.h	11;"	d
+ID_ECHO	./mystate.h	15;"	d
+ID_IDENTITY	./mystate.h	13;"	d
+ID_START	./mystate.h	12;"	d
+ID_WAITECHO	./mystate.h	17;"	d
+II	./md5.c	84;"	d	file:
+IMAGE_DATA_DIRECTORY	./mycheck.h	/^} IMAGE_DATA_DIRECTORY, *PIMAGE_DATA_DIRECTORY;$/;"	t	typeref:struct:_IMAGE_DATA_DIRECTORY
+IMAGE_DOS_HEADER	./mycheck.h	/^} IMAGE_DOS_HEADER, *PIMAGE_DOS_HEADER;$/;"	t	typeref:struct:_IMAGE_DOS_HEADER
+IMAGE_FILE_HEADER	./mycheck.h	/^} IMAGE_FILE_HEADER, *PIMAGE_FILE_HEADER;$/;"	t	typeref:struct:_IMAGE_FILE_HEADER
+IMAGE_NUMBEROF_DIRECTORY_ENTRIES	./mycheck.h	51;"	d
+IMAGE_OPTIONAL_HEADER	./mycheck.h	/^} IMAGE_OPTIONAL_HEADER, *PIMAGE_OPTIONAL_HEADER;$/;"	t	typeref:struct:_IMAGE_OPTIONAL_HEADER
+IMAGE_RESOURCE_DATA_ENTRY	./mycheck.h	/^} IMAGE_RESOURCE_DATA_ENTRY, *PIMAGE_RESOURCE_DATA_ENTRY;$/;"	t	typeref:struct:_IMAGE_RESOURCE_DATA_ENTRY
+IMAGE_RESOURCE_DIRECTORY	./mycheck.h	/^} IMAGE_RESOURCE_DIRECTORY, *PIMAGE_RESOURCE_DIRECTORY;$/;"	t	typeref:struct:_IMAGE_RESOURCE_DIRECTORY
+IMAGE_RESOURCE_DIRECTORY_ENTRY	./mycheck.h	/^} IMAGE_RESOURCE_DIRECTORY_ENTRY, *PIMAGE_RESOURCE_DIRECTORY_ENTRY;$/;"	t	typeref:struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY
+IMAGE_SCN_CNT_CODE	./mycheck.h	201;"	d
+IMAGE_SCN_MEM_EXECUTE	./mycheck.h	202;"	d
+IMAGE_SECTION_HEADER	./mycheck.h	/^} IMAGE_SECTION_HEADER, *PIMAGE_SECTION_HEADER;$/;"	t	typeref:struct:_IMAGE_SECTION_HEADER
+IMAGE_SIZEOF_SHORT_NAME	./mycheck.h	95;"	d
+Id	./mycheck.h	/^			WORD	Id;$/;"	m	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon3::__anon5
+Id_unuse	./mycheck.h	/^			WORD	Id_unuse;$/;"	m	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon3::__anon5
+ImageBase	./mycheck.h	/^	DWORD	ImageBase;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+LOCKMODE	./myconfig.c	46;"	d	file:
+LOCK_FILE	./myconfig.c	/^static const char *LOCK_FILE = "\/var\/run\/mentohust.pid";	\/* 锁文件 *\/$/;"	v	file:
+LOG_FILE	./myconfig.c	/^static const char *LOG_FILE = "\/tmp\/mentohust.log";		\/* 日志文件 *\/$/;"	v	file:
+LONG	./types.h	/^typedef int LONG;$/;"	t
+LTOBL	./mycheck.h	206;"	d
+LTOBL	./mycheck.h	211;"	d
+LTOBS	./mycheck.h	205;"	d
+LTOBS	./mycheck.h	210;"	d
+LoaderFlags	./mycheck.h	/^	DWORD	LoaderFlags;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+MAX_PATH	./myconfig.c	32;"	d	file:
+MAX_SEND_COUNT	./mystate.c	17;"	d	file:
+MD5Final	./md5.c	/^void MD5Final (UCHAR digest[16], MD5_CTX *context)$/;"	f
+MD5Init	./md5.c	/^void MD5Init (MD5_CTX * context)$/;"	f
+MD5Transform	./md5.c	/^static void MD5Transform (UINT4 state[4],UCHAR block[64])$/;"	f	file:
+MD5Update	./md5.c	/^void MD5Update (MD5_CTX *context, UCHAR *input, UINT4 inputLen)$/;"	f
+MD5_CTX	./md5.h	/^} MD5_CTX;$/;"	t	typeref:struct:__anon1
+MD5_H	./md5.h	26;"	d
+MENTOHUST_H	./mentohust.h	2;"	d
+MYCHECK_H	./mycheck.h	10;"	d
+Machine	./mycheck.h	/^	WORD	Machine;$/;"	m	struct:_IMAGE_FILE_HEADER
+Magic	./mycheck.h	/^	WORD	Magic;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+MajorImageVersion	./mycheck.h	/^	WORD	MajorImageVersion;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+MajorLinkerVersion	./mycheck.h	/^	BYTE	MajorLinkerVersion;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+MajorOperatingSystemVersion	./mycheck.h	/^	WORD	MajorOperatingSystemVersion;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+MajorSubsystemVersion	./mycheck.h	/^	WORD	MajorSubsystemVersion;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+MajorVersion	./mycheck.h	/^	WORD	MajorVersion;$/;"	m	struct:_IMAGE_RESOURCE_DIRECTORY
+MinorImageVersion	./mycheck.h	/^	WORD	MinorImageVersion;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+MinorLinkerVersion	./mycheck.h	/^	BYTE	MinorLinkerVersion;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+MinorOperatingSystemVersion	./mycheck.h	/^	WORD	MinorOperatingSystemVersion;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+MinorSubsystemVersion	./mycheck.h	/^	WORD	MinorSubsystemVersion;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+MinorVersion	./mycheck.h	/^	WORD	MinorVersion;$/;"	m	struct:_IMAGE_RESOURCE_DIRECTORY
+Misc	./mycheck.h	/^	} Misc;$/;"	m	struct:_IMAGE_SECTION_HEADER	typeref:union:_IMAGE_SECTION_HEADER::__anon2
+NIC_SIZE	./myconfig.c	31;"	d	file:
+NO_NOTIFY	./mentohust.c	31;"	d	file:
+Name	./mycheck.h	/^		DWORD	Name;$/;"	m	union:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon3
+Name	./mycheck.h	/^	char	Name[IMAGE_SIZEOF_SHORT_NAME];$/;"	m	struct:_IMAGE_SECTION_HEADER
+NameIsString	./mycheck.h	/^			DWORD NameIsString:1;$/;"	m	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon3::__anon4
+NameOffset	./mycheck.h	/^			DWORD NameOffset:31;$/;"	m	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon3::__anon4
+NumberOfIdEntries	./mycheck.h	/^	WORD	NumberOfIdEntries;$/;"	m	struct:_IMAGE_RESOURCE_DIRECTORY
+NumberOfLinenumbers	./mycheck.h	/^	WORD	NumberOfLinenumbers;$/;"	m	struct:_IMAGE_SECTION_HEADER
+NumberOfNamedEntries	./mycheck.h	/^	WORD	NumberOfNamedEntries;$/;"	m	struct:_IMAGE_RESOURCE_DIRECTORY
+NumberOfRelocations	./mycheck.h	/^	WORD	NumberOfRelocations;$/;"	m	struct:_IMAGE_SECTION_HEADER
+NumberOfRvaAndSizes	./mycheck.h	/^	DWORD	NumberOfRvaAndSizes;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+NumberOfSections	./mycheck.h	/^	WORD	NumberOfSections;$/;"	m	struct:_IMAGE_FILE_HEADER
+NumberOfSymbols	./mycheck.h	/^	DWORD	NumberOfSymbols;$/;"	m	struct:_IMAGE_FILE_HEADER
+OffsetToData	./mycheck.h	/^		DWORD	OffsetToData;$/;"	m	union:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon6
+OffsetToData	./mycheck.h	/^	DWORD	OffsetToData;$/;"	m	struct:_IMAGE_RESOURCE_DATA_ENTRY
+OffsetToDirectory	./mycheck.h	/^			DWORD	OffsetToDirectory:31;$/;"	m	struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY::__anon6::__anon7
+PACKAGE_BUGREPORT	./myconfig.c	/^static const char *PACKAGE_BUGREPORT = "http:\/\/code.google.com\/p\/mentohust\/issues\/list";$/;"	v	file:
+PADDING	./md5.c	/^static UCHAR PADDING[64] = {$/;"	v	file:
+PCAP_ERRBUF_SIZE	./dlfunc.h	15;"	d
+PCAP_IF_LOOPBACK	./dlfunc.h	16;"	d
+PE_HEADER_MAP	./mycheck.h	/^}PE_HEADER_MAP,*PPE_HEADER_MAP;$/;"	t	typeref:struct:_PE_HEADER_MAP
+PIMAGE_DATA_DIRECTORY	./mycheck.h	/^} IMAGE_DATA_DIRECTORY, *PIMAGE_DATA_DIRECTORY;$/;"	t	typeref:struct:_IMAGE_DATA_DIRECTORY
+PIMAGE_DOS_HEADER	./mycheck.h	/^} IMAGE_DOS_HEADER, *PIMAGE_DOS_HEADER;$/;"	t	typeref:struct:_IMAGE_DOS_HEADER
+PIMAGE_FILE_HEADER	./mycheck.h	/^} IMAGE_FILE_HEADER, *PIMAGE_FILE_HEADER;$/;"	t	typeref:struct:_IMAGE_FILE_HEADER
+PIMAGE_OPTIONAL_HEADER	./mycheck.h	/^} IMAGE_OPTIONAL_HEADER, *PIMAGE_OPTIONAL_HEADER;$/;"	t	typeref:struct:_IMAGE_OPTIONAL_HEADER
+PIMAGE_RESOURCE_DATA_ENTRY	./mycheck.h	/^} IMAGE_RESOURCE_DATA_ENTRY, *PIMAGE_RESOURCE_DATA_ENTRY;$/;"	t	typeref:struct:_IMAGE_RESOURCE_DATA_ENTRY
+PIMAGE_RESOURCE_DIRECTORY	./mycheck.h	/^} IMAGE_RESOURCE_DIRECTORY, *PIMAGE_RESOURCE_DIRECTORY;$/;"	t	typeref:struct:_IMAGE_RESOURCE_DIRECTORY
+PIMAGE_RESOURCE_DIRECTORY_ENTRY	./mycheck.h	/^} IMAGE_RESOURCE_DIRECTORY_ENTRY, *PIMAGE_RESOURCE_DIRECTORY_ENTRY;$/;"	t	typeref:struct:_IMAGE_RESOURCE_DIRECTORY_ENTRY
+PIMAGE_SECTION_HEADER	./mycheck.h	/^} IMAGE_SECTION_HEADER, *PIMAGE_SECTION_HEADER;$/;"	t	typeref:struct:_IMAGE_SECTION_HEADER
+POINTER	./types.h	/^typedef unsigned char *POINTER;$/;"	t
+PPE_HEADER_MAP	./mycheck.h	/^}PE_HEADER_MAP,*PPE_HEADER_MAP;$/;"	t	typeref:struct:_PE_HEADER_MAP
+PVS_VERSIONINFO	./mycheck.h	/^} VS_VERSIONINFO, *PVS_VERSIONINFO;$/;"	t	typeref:struct:_VS_VERSIONINFO
+Padding1	./mycheck.h	/^	WORD	Padding1[1];$/;"	m	struct:_VS_VERSIONINFO
+PhysicalAddress	./mycheck.h	/^		DWORD	PhysicalAddress;$/;"	m	union:_IMAGE_SECTION_HEADER::__anon2
+PointerToLinenumbers	./mycheck.h	/^	DWORD	PointerToLinenumbers;$/;"	m	struct:_IMAGE_SECTION_HEADER
+PointerToRawData	./mycheck.h	/^	DWORD	PointerToRawData;$/;"	m	struct:_IMAGE_SECTION_HEADER
+PointerToRelocations	./mycheck.h	/^	DWORD	PointerToRelocations;$/;"	m	struct:_IMAGE_SECTION_HEADER
+PointerToSymbolTable	./mycheck.h	/^	DWORD	PointerToSymbolTable;$/;"	m	struct:_IMAGE_FILE_HEADER
+ROTATE_LEFT	./md5.c	64;"	d	file:
+RUIJIE_ADDR	./myfunc.c	/^const u_char RUIJIE_ADDR[] = {0x01,0xD0,0xF8,0x00,0x00,0x03};$/;"	v
+ReadCode	./mycheck.c	/^BYTE *ReadCode(const char *file, DWORD *size) {$/;"	f
+ReadCode2	./mycheck.c	/^BYTE *ReadCode2(const char *dataFile, DWORD *size) {$/;"	f
+Reserved	./mycheck.h	/^	DWORD	Reserved;$/;"	m	struct:_IMAGE_RESOURCE_DATA_ENTRY
+S11	./md5.c	28;"	d	file:
+S12	./md5.c	29;"	d	file:
+S13	./md5.c	30;"	d	file:
+S14	./md5.c	31;"	d	file:
+S21	./md5.c	32;"	d	file:
+S22	./md5.c	33;"	d	file:
+S23	./md5.c	34;"	d	file:
+S24	./md5.c	35;"	d	file:
+S31	./md5.c	36;"	d	file:
+S32	./md5.c	37;"	d	file:
+S33	./md5.c	38;"	d	file:
+S34	./md5.c	39;"	d	file:
+S41	./md5.c	40;"	d	file:
+S42	./md5.c	41;"	d	file:
+S43	./md5.c	42;"	d	file:
+S44	./md5.c	43;"	d	file:
+STANDARD_ADDR	./myfunc.c	/^const u_char STANDARD_ADDR[] = {0x01,0x80,0xC2,0x00,0x00,0x03};$/;"	v
+SectionAlignment	./mycheck.h	/^	DWORD	SectionAlignment;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+Size	./mycheck.h	/^	DWORD	Size;$/;"	m	struct:_IMAGE_DATA_DIRECTORY
+Size	./mycheck.h	/^	DWORD	Size;$/;"	m	struct:_IMAGE_RESOURCE_DATA_ENTRY
+SizeOfCode	./mycheck.h	/^	DWORD	SizeOfCode;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+SizeOfHeaders	./mycheck.h	/^	DWORD	SizeOfHeaders;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+SizeOfHeapCommit	./mycheck.h	/^	DWORD	SizeOfHeapCommit;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+SizeOfHeapReserve	./mycheck.h	/^	DWORD	SizeOfHeapReserve;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+SizeOfImage	./mycheck.h	/^	DWORD	SizeOfImage;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+SizeOfInitializedData	./mycheck.h	/^	DWORD	SizeOfInitializedData;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+SizeOfOptionalHeader	./mycheck.h	/^	WORD	SizeOfOptionalHeader;$/;"	m	struct:_IMAGE_FILE_HEADER
+SizeOfRawData	./mycheck.h	/^	DWORD	SizeOfRawData;$/;"	m	struct:_IMAGE_SECTION_HEADER
+SizeOfStackCommit	./mycheck.h	/^	DWORD	SizeOfStackCommit;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+SizeOfStackReserve	./mycheck.h	/^	DWORD	SizeOfStackReserve;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+SizeOfUninitializedData	./mycheck.h	/^	DWORD	SizeOfUninitializedData;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+Subsystem	./mycheck.h	/^	WORD	Subsystem;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+TYPES_H	./types.h	2;"	d
+TimeDateStamp	./mycheck.h	/^	DWORD	TimeDateStamp;$/;"	m	struct:_IMAGE_FILE_HEADER
+TimeDateStamp	./mycheck.h	/^	DWORD	TimeDateStamp;$/;"	m	struct:_IMAGE_RESOURCE_DIRECTORY
+UCHAR	./types.h	/^typedef unsigned char UCHAR;$/;"	t
+UINT4	./types.h	/^typedef unsigned int UINT4;$/;"	t
+V2_check	./mycheck.c	/^void V2_check(const BYTE *seed, char *final_str) {$/;"	f
+VERSION	./myconfig.c	/^static const char *VERSION = "0.3.1";$/;"	v	file:
+VS_FIXEDFILEINFO	./mycheck.h	/^} VS_FIXEDFILEINFO;$/;"	t	typeref:struct:tagVS_FIXEDFILEINFO
+VS_VERSIONINFO	./mycheck.h	/^} VS_VERSIONINFO, *PVS_VERSIONINFO;$/;"	t	typeref:struct:_VS_VERSIONINFO
+Value	./mycheck.h	/^	VS_FIXEDFILEINFO Value;$/;"	m	struct:_VS_VERSIONINFO
+VirtualAddress	./mycheck.h	/^	DWORD	VirtualAddress;$/;"	m	struct:_IMAGE_DATA_DIRECTORY
+VirtualAddress	./mycheck.h	/^	DWORD	VirtualAddress;$/;"	m	struct:_IMAGE_SECTION_HEADER
+VirtualSize	./mycheck.h	/^		DWORD	VirtualSize;$/;"	m	union:_IMAGE_SECTION_HEADER::__anon2
+WORD	./types.h	/^typedef unsigned short int WORD;$/;"	t
+Win32VersionValue	./mycheck.h	/^	DWORD	Win32VersionValue;$/;"	m	struct:_IMAGE_OPTIONAL_HEADER
+_IMAGE_DATA_DIRECTORY	./mycheck.h	/^typedef struct _IMAGE_DATA_DIRECTORY {$/;"	s
+_IMAGE_DOS_HEADER	./mycheck.h	/^typedef struct _IMAGE_DOS_HEADER {	\/\/ DOS .EXE header$/;"	s
+_IMAGE_FILE_HEADER	./mycheck.h	/^typedef struct _IMAGE_FILE_HEADER {$/;"	s
+_IMAGE_OPTIONAL_HEADER	./mycheck.h	/^typedef struct _IMAGE_OPTIONAL_HEADER {$/;"	s
+_IMAGE_RESOURCE_DATA_ENTRY	./mycheck.h	/^typedef struct _IMAGE_RESOURCE_DATA_ENTRY {$/;"	s
+_IMAGE_RESOURCE_DIRECTORY	./mycheck.h	/^typedef struct _IMAGE_RESOURCE_DIRECTORY {$/;"	s
+_IMAGE_RESOURCE_DIRECTORY_ENTRY	./mycheck.h	/^typedef struct _IMAGE_RESOURCE_DIRECTORY_ENTRY {$/;"	s
+_IMAGE_SECTION_HEADER	./mycheck.h	/^typedef struct _IMAGE_SECTION_HEADER {$/;"	s
+_PE_HEADER_MAP	./mycheck.h	/^typedef struct _PE_HEADER_MAP$/;"	s
+_VS_VERSIONINFO	./mycheck.h	/^typedef struct _VS_VERSIONINFO { $/;"	s
+_head	./mycheck.h	/^	IMAGE_FILE_HEADER _head;$/;"	m	struct:_PE_HEADER_MAP
+addresses	./dlfunc.h	/^	void *addresses;$/;"	m	struct:pcap_if
+alldevs	./myconfig.c	/^static pcap_if_t *alldevs;		\/*网卡信息*\/$/;"	v	file:
+bf_insns	./dlfunc.h	/^	void *bf_insns;$/;"	m	struct:bpf_program
+bf_len	./dlfunc.h	/^	unsigned int bf_len;$/;"	m	struct:bpf_program
+bin_8021x	./mycheck.c	/^static BYTE *bin_8021x = NULL;$/;"	v	file:
+bpf_program	./dlfunc.h	/^struct bpf_program {$/;"	s
+bpf_u_int32	./dlfunc.h	/^typedef unsigned int bpf_u_int32;$/;"	t
+bufType	./myfunc.c	/^int bufType = 0;	\/*0内置xrgsu 1内置Win 2仅文件 3文件+校验*\/$/;"	v
+buffer	./md5.h	/^  UCHAR buffer[64];						 \/* input buffer *\/$/;"	m	struct:__anon1
+capBuf	./mystate.c	/^const u_char *capBuf = NULL;		\/* 抓到的包 *\/$/;"	v
+caplen	./dlfunc.h	/^	bpf_u_int32 caplen;$/;"	m	struct:pcap_pkthdr
+checkFile	./myfunc.c	/^static int checkFile() {$/;"	f	file:
+checkPass	./myfunc.c	/^u_char *checkPass(u_char id, const u_char *md5Seed, int seedLen)$/;"	f
+checkRunning	./myconfig.c	/^static void checkRunning(int exitFlag)$/;"	f	file:
+checkSum	./myfunc.c	/^static void checkSum(u_char *buf)	\/* 算法，计算两个字节的checksum *\/$/;"	f	file:
+check_free	./mycheck.c	/^void check_free() {$/;"	f
+check_init	./mycheck.c	/^int check_init(const char *dataFile) {$/;"	f
+connetFlag	./mentohust.c	/^static int connetFlag = 1;$/;"	v	file:
+count	./md5.h	/^  UINT4 count[2];		\/* number of bits, modulo 2^64 (lsb first) *\/$/;"	m	struct:__anon1
+daemonMode	./myconfig.c	/^static int daemonMode = D_DAEMONMODE;	\/* 是否后台运行 *\/$/;"	v	file:
+dataFile	./myconfig.c	/^char dataFile[MAX_PATH] = "";		\/* 数据文件 *\/$/;"	v
+dataOffset	./myfunc.c	/^static int dataOffset;	\/* 抓包偏移 *\/$/;"	v	file:
+description	./dlfunc.h	/^	char *description;$/;"	m	struct:pcap_if
+destMAC	./myconfig.c	/^u_char destMAC[6];			\/* 服务器MAC *\/$/;"	v
+dhcpMode	./myconfig.c	/^unsigned dhcpMode = D_DHCPMODE;		\/* DHCP模式 *\/$/;"	v
+dhcpScript	./myconfig.c	/^char dhcpScript[MAX_PATH] = "";		\/* DHCP脚本 *\/$/;"	v
+dns	./myconfig.c	/^u_int32_t dns = 0;			\/* DNS *\/$/;"	v
+dwFileDateLS	./mycheck.h	/^	DWORD	dwFileDateLS;			\/* e.g. 0 *\/$/;"	m	struct:tagVS_FIXEDFILEINFO
+dwFileDateMS	./mycheck.h	/^	DWORD	dwFileDateMS;			\/* e.g. 0 *\/$/;"	m	struct:tagVS_FIXEDFILEINFO
+dwFileFlags	./mycheck.h	/^	DWORD	dwFileFlags;			\/* e.g. VFF_DEBUG | VFF_PRERELEASE *\/$/;"	m	struct:tagVS_FIXEDFILEINFO
+dwFileFlagsMask	./mycheck.h	/^	DWORD	dwFileFlagsMask;		\/* = 0x3F for version "0.42" *\/$/;"	m	struct:tagVS_FIXEDFILEINFO
+dwFileOS	./mycheck.h	/^	DWORD	dwFileOS;				\/* e.g. VOS_DOS_WINDOWS16 *\/$/;"	m	struct:tagVS_FIXEDFILEINFO
+dwFileSubtype	./mycheck.h	/^	DWORD	dwFileSubtype;			\/* e.g. VFT2_DRV_KEYBOARD *\/$/;"	m	struct:tagVS_FIXEDFILEINFO
+dwFileType	./mycheck.h	/^	DWORD	dwFileType;				\/* e.g. VFT_DRIVER *\/$/;"	m	struct:tagVS_FIXEDFILEINFO
+dwFileVersionLS	./mycheck.h	/^	DWORD	dwFileVersionLS;		\/* e.g. 0x00000031 = "0.31" *\/$/;"	m	struct:tagVS_FIXEDFILEINFO
+dwFileVersionMS	./mycheck.h	/^	DWORD	dwFileVersionMS;		\/* e.g. 0x00030075 = "3.75" *\/$/;"	m	struct:tagVS_FIXEDFILEINFO
+dwProductVersionLS	./mycheck.h	/^	DWORD	dwProductVersionLS;		\/* e.g. 0x00000031 = "0.31" *\/$/;"	m	struct:tagVS_FIXEDFILEINFO
+dwProductVersionMS	./mycheck.h	/^	DWORD	dwProductVersionMS;		\/* e.g. 0x00030010 = "3.10" *\/$/;"	m	struct:tagVS_FIXEDFILEINFO
+dwSignature	./mycheck.h	/^	DWORD	dwSignature;			\/* e.g. 0xfeef04bd *\/$/;"	m	struct:tagVS_FIXEDFILEINFO
+dwStrucVersion	./mycheck.h	/^	DWORD	dwStrucVersion;			\/* e.g. 0x00000042 = "0.42" *\/$/;"	m	struct:tagVS_FIXEDFILEINFO
+e_cblp	./mycheck.h	/^	WORD	e_cblp;					\/\/ Bytes on last page of file$/;"	m	struct:_IMAGE_DOS_HEADER
+e_cp	./mycheck.h	/^	WORD	e_cp;					\/\/ Pages in file$/;"	m	struct:_IMAGE_DOS_HEADER
+e_cparhdr	./mycheck.h	/^	WORD	e_cparhdr;				\/\/ Size of header in paragraphs$/;"	m	struct:_IMAGE_DOS_HEADER
+e_crlc	./mycheck.h	/^	WORD	e_crlc;					\/\/ Relocations$/;"	m	struct:_IMAGE_DOS_HEADER
+e_cs	./mycheck.h	/^	WORD	e_cs;					\/\/ Initial (relative) CS value$/;"	m	struct:_IMAGE_DOS_HEADER
+e_csum	./mycheck.h	/^	WORD	e_csum;					\/\/ Checksum$/;"	m	struct:_IMAGE_DOS_HEADER
+e_ip	./mycheck.h	/^	WORD	e_ip;					\/\/ Initial IP value$/;"	m	struct:_IMAGE_DOS_HEADER
+e_lfanew	./mycheck.h	/^	LONG	e_lfanew;				\/\/ File address of new exe header$/;"	m	struct:_IMAGE_DOS_HEADER
+e_lfarlc	./mycheck.h	/^	WORD	e_lfarlc;				\/\/ File address of relocation table$/;"	m	struct:_IMAGE_DOS_HEADER
+e_magic	./mycheck.h	/^	WORD	e_magic;				\/\/ Magic number$/;"	m	struct:_IMAGE_DOS_HEADER
+e_maxalloc	./mycheck.h	/^	WORD	e_maxalloc;				\/\/ Maximum extra paragraphs needed$/;"	m	struct:_IMAGE_DOS_HEADER
+e_minalloc	./mycheck.h	/^	WORD	e_minalloc;				\/\/ Minimum extra paragraphs needed$/;"	m	struct:_IMAGE_DOS_HEADER
+e_oemid	./mycheck.h	/^	WORD	e_oemid;				\/\/ OEM identifier (for e_oeminfo)$/;"	m	struct:_IMAGE_DOS_HEADER
+e_oeminfo	./mycheck.h	/^	WORD	e_oeminfo;				\/\/ OEM information; e_oemid specific$/;"	m	struct:_IMAGE_DOS_HEADER
+e_ovno	./mycheck.h	/^	WORD	e_ovno;					\/\/ Overlay number$/;"	m	struct:_IMAGE_DOS_HEADER
+e_res	./mycheck.h	/^	WORD	e_res[4];				\/\/ Reserved words$/;"	m	struct:_IMAGE_DOS_HEADER
+e_res2	./mycheck.h	/^	WORD	e_res2[10];				\/\/ Reserved words$/;"	m	struct:_IMAGE_DOS_HEADER
+e_sp	./mycheck.h	/^	WORD	e_sp;					\/\/ Initial SP value$/;"	m	struct:_IMAGE_DOS_HEADER
+e_ss	./mycheck.h	/^	WORD	e_ss;					\/\/ Initial (relative) SS value$/;"	m	struct:_IMAGE_DOS_HEADER
+echoInterval	./myconfig.c	/^unsigned echoInterval = D_ECHOINTERVAL;	\/* 心跳间隔 *\/$/;"	v
+echoKey	./myfunc.c	/^static u_int32_t echoKey = 0, echoNo = 0;	\/* Echo阶段所需 *\/$/;"	v	file:
+echoNo	./myfunc.c	/^static u_int32_t echoKey = 0, echoNo = 0;	\/* Echo阶段所需 *\/$/;"	v	file:
+encode	./myfunc.c	/^static u_char encode(u_char base)	\/* 算法，将一个字节的8位颠倒并取反 *\/$/;"	f	file:
+exit_handle	./mentohust.c	/^static void exit_handle(void)$/;"	f	file:
+fillBuf	./myfunc.c	/^u_char *fillBuf = NULL;	\/* 填充包地址 *\/$/;"	v
+fillEchoPacket	./myfunc.c	/^void fillEchoPacket(u_char *echoBuf)$/;"	f
+fillEtherAddr	./mystate.c	/^static void fillEtherAddr(u_int32_t protocol)$/;"	f	file:
+fillHeader	./myfunc.c	/^int fillHeader()$/;"	f
+fillMd5Packet	./myfunc.c	/^void fillMd5Packet(const u_char *md5Seed)$/;"	f
+fillSize	./myfunc.c	/^int fillSize = 0;	\/* 填充包大小 *\/$/;"	v
+fillStartPacket	./myfunc.c	/^void fillStartPacket()$/;"	f
+flags	./dlfunc.h	/^	bpf_u_int32 flags;$/;"	m	struct:pcap_if
+formatHex	./myfunc.c	/^char *formatHex(const void *buf, int length)$/;"	f
+formatIP	./myfunc.c	/^char *formatIP(u_int32_t ip)$/;"	f
+free_libpcap	./dlfunc.c	/^void free_libpcap(void) {$/;"	f
+gateMAC	./myfunc.c	/^u_char gateMAC[6];	\/* 网关MAC *\/$/;"	v
+gateway	./myconfig.c	/^u_int32_t gateway = 0;			\/* 网关 *\/$/;"	v
+gbk2utf	./mentohust.c	/^static char *gbk2utf(char *src, size_t srclen)	\/* GBK转UTF－8 *\/$/;"	f	file:
+getAdapter	./myconfig.c	/^static int getAdapter()$/;"	f	file:
+getAddress	./myfunc.c	/^static int getAddress()$/;"	f	file:
+getEchoKey	./myfunc.c	/^void getEchoKey(const u_char *capBuf)$/;"	f
+getIniStr	./myconfig.c	/^char* getIniStr()$/;"	f
+getNicInfo	./myconfig.c	/^void getNicInfo(CSTRING nicInfoStr,int *nicNum)$/;"	f
+getServerMsg	./mentohust.c	/^char* getServerMsg()$/;"	f
+getUserInfo	./myconfig.c	/^int getUserInfo(char *pUserName,int *length)$/;"	f
+getVer	./mycheck.c	/^DWORD getVer(const char *file) {$/;"	f
+getVersion	./myfunc.c	/^static int getVersion() {$/;"	f	file:
+hPcap	./myconfig.c	/^pcap_t *hPcap = NULL;			\/* Pcap句柄 *\/$/;"	v
+hex	./mycheck.c	/^static BYTE hex[][17]={"0123456789ABCDEF", "0123456789abcdef"};$/;"	v	file:
+hex_to_str	./mycheck.c	/^void hex_to_str(const BYTE *a, char *b, int hexsize, int upper) {$/;"	f
+iniBuf	./myconfig.c	/^static char *iniBuf;			\/*这里是我加的，用来读取配置文件*\/$/;"	v	file:
+initConfig	./myconfig.c	/^void initConfig(char *pName,char *pPasswd)$/;"	f
+ip	./myconfig.c	/^u_int32_t ip = 0;			\/* 本机IP *\/$/;"	v
+isOnline	./myfunc.c	/^int isOnline()$/;"	f
+itoa_cat	./myconfig.c	/^void itoa_cat(char *buf,int num)$/;"	f
+keepConnet	./mentohust.c	/^void keepConnet()$/;"	f
+keepOnLine	./mentohust.c	/^static void keepOnLine(u_char *user, const struct pcap_pkthdr *h, const u_char *buf)$/;"	f	file:
+len	./dlfunc.h	/^	bpf_u_int32 len;$/;"	m	struct:pcap_pkthdr
+libpcap	./dlfunc.c	/^static void *libpcap = NULL;$/;"	v	file:
+loadFile	./myconfig.c	/^char *loadFile(const char *fileName)$/;"	f
+load_libpcap	./dlfunc.c	/^int load_libpcap(void) {$/;"	f
+localMAC	./myconfig.c	/^u_char localMAC[6];			\/* 本机MAC *\/$/;"	v
+lockfd	./myconfig.c	/^int lockfd = -1;			\/* 锁文件描述符 *\/$/;"	v
+ltobl	./mycheck.c	/^DWORD ltobl(DWORD x) {$/;"	f
+ltobs	./mycheck.c	/^WORD ltobs(WORD x) {$/;"	f
+main	./main.c	/^int main(int argc,char **argv)$/;"	f
+mask	./myconfig.c	/^u_int32_t mask = 0;			\/* 子网掩码 *\/$/;"	v
+maxFail	./myconfig.c	/^unsigned maxFail = D_MAXFAIL;		\/* 允许失败次数 *\/$/;"	v
+mentohust	./mentohust.c	/^int mentohust()$/;"	f
+name	./dlfunc.h	/^	char *name;$/;"	m	struct:pcap_if
+newBuffer	./myfunc.c	/^void newBuffer()$/;"	f
+next	./dlfunc.h	/^	struct pcap_if *next;$/;"	m	struct:pcap_if	typeref:struct:pcap_if::pcap_if
+nic	./myconfig.c	/^char nic[NIC_SIZE] = "";		\/* 网卡名 *\/$/;"	v
+openPcap	./myconfig.c	/^static int openPcap()$/;"	f	file:
+opt_head	./mycheck.h	/^	IMAGE_OPTIONAL_HEADER opt_head;$/;"	m	struct:_PE_HEADER_MAP
+password	./myconfig.c	/^char password[ACCOUNT_SIZE] = "";	\/* 密码 *\/$/;"	v
+pcap_breakloop	./dlfunc.c	/^void (*pcap_breakloop)(pcap_t *);$/;"	v
+pcap_close	./dlfunc.c	/^void (*pcap_close)(pcap_t *);$/;"	v
+pcap_compile	./dlfunc.c	/^int (*pcap_compile)(pcap_t *, struct bpf_program *, const char *, int, bpf_u_int32);$/;"	v
+pcap_findalldevs	./dlfunc.c	/^int (*pcap_findalldevs)(pcap_if_t **, char *);$/;"	v
+pcap_freealldevs	./dlfunc.c	/^void (*pcap_freealldevs)(pcap_if_t *);$/;"	v
+pcap_freecode	./dlfunc.c	/^void (*pcap_freecode)(struct bpf_program *);$/;"	v
+pcap_geterr	./dlfunc.c	/^char *(*pcap_geterr)(pcap_t *);$/;"	v
+pcap_handle	./mentohust.c	/^static void pcap_handle(u_char *user, const struct pcap_pkthdr *h, const u_char *buf)$/;"	f	file:
+pcap_handler	./dlfunc.h	/^typedef void (*pcap_handler)(unsigned char *, const struct pcap_pkthdr *, const unsigned char *);$/;"	t
+pcap_if	./dlfunc.h	/^typedef struct pcap_if {$/;"	s
+pcap_if_t	./dlfunc.h	/^}pcap_if_t;$/;"	t	typeref:struct:pcap_if
+pcap_loop	./dlfunc.c	/^int (*pcap_loop)(pcap_t *, int, pcap_handler, unsigned char *);$/;"	v
+pcap_open_live	./dlfunc.c	/^pcap_t *(*pcap_open_live)(const char *, int, int, int, char *);$/;"	v
+pcap_pkthdr	./dlfunc.h	/^struct pcap_pkthdr {$/;"	s
+pcap_sendpacket	./dlfunc.c	/^int (*pcap_sendpacket)(pcap_t *, const unsigned char *, int);$/;"	v
+pcap_setfilter	./dlfunc.c	/^int (*pcap_setfilter)(pcap_t *, struct bpf_program *);$/;"	v
+pcap_t	./dlfunc.h	/^typedef void pcap_t;$/;"	t
+pingHost	./myconfig.c	/^u_int32_t pingHost = 0;			\/* ping *\/$/;"	v
+readFile	./myconfig.c	/^static int readFile()$/;"	f	file:
+readPacket	./myfunc.c	/^static int readPacket(int type)$/;"	f	file:
+renewIP	./mystate.c	/^static int renewIP()$/;"	f	file:
+restart	./mystate.c	/^int restart()$/;"	f
+restartWait	./myconfig.c	/^unsigned restartWait = D_RESTARTWAIT;	\/* 失败等待 *\/$/;"	v
+rip	./myfunc.c	/^u_int32_t rip = 0;	\/* 实际IP *\/$/;"	v
+ruijieMsg	./mentohust.c	/^static char ruijieMsg[1024];$/;"	v	file:
+saveConfig	./myconfig.c	/^void saveConfig(const char *pName,const char *pPasswd)$/;"	f
+saveFile	./myconfig.c	/^int saveFile(const char *buf, const char *fileName)$/;"	f
+section_header	./mycheck.h	/^	IMAGE_SECTION_HEADER section_header[8];$/;"	m	struct:_PE_HEADER_MAP
+selectNic	./myconfig.c	/^void selectNic(int selectNum)$/;"	f
+sendArpPacket	./mystate.c	/^static void sendArpPacket()$/;"	f	file:
+sendChallengePacket	./mystate.c	/^static int sendChallengePacket()$/;"	f	file:
+sendCount	./mystate.c	/^static int sendCount = 0;		\/* 同一阶段发包计数 *\/$/;"	v	file:
+sendEchoPacket	./mystate.c	/^static int sendEchoPacket()$/;"	f	file:
+sendIdentityPacket	./mystate.c	/^static int sendIdentityPacket()$/;"	f	file:
+sendLogoffPacket	./mystate.c	/^static int sendLogoffPacket()$/;"	f	file:
+sendPacket	./mystate.c	/^static u_char sendPacket[0x3E8];	\/* 用来发送的包 *\/$/;"	v	file:
+sendStartPacket	./mystate.c	/^int sendStartPacket()$/;"	f
+setProperty	./myfunc.c	/^static int setProperty(u_char type, const u_char *value, int length)$/;"	f	file:
+setTimer	./mystate.c	/^static void setTimer(unsigned interval) \/* 设置定时器 *\/$/;"	f	file:
+showNotify	./myconfig.c	/^int showNotify = D_SHOWNOTIFY;		\/* 显示通知 *\/$/;"	v
+showRuijieMsg	./mentohust.c	/^static void showRuijieMsg(const u_char *buf, unsigned bufLen)$/;"	f	file:
+sig_handle	./mentohust.c	/^static void sig_handle(int sig)$/;"	f	file:
+signature	./mycheck.h	/^	DWORD signature;$/;"	m	struct:_PE_HEADER_MAP
+size_8021x	./mycheck.c	/^static DWORD size_8021x;$/;"	v	file:
+startConnet	./mentohust.c	/^void  startConnet()$/;"	f
+startMode	./myconfig.c	/^unsigned startMode = D_STARTMODE;	\/* 组播模式 *\/$/;"	v
+statasConnet	./mentohust.c	/^int statasConnet()$/;"	f
+state	./md5.h	/^  UINT4 state[4];								   \/* state (ABCD) *\/$/;"	m	struct:__anon1
+state	./mystate.c	/^volatile int state = ID_DISCONNECT;	\/* 认证状态 *\/$/;"	v
+switchState	./mystate.c	/^int switchState(int type)$/;"	f
+szKey	./mycheck.h	/^	WORD	szKey[16];$/;"	m	struct:_VS_VERSIONINFO
+tagVS_FIXEDFILEINFO	./mycheck.h	/^typedef struct tagVS_FIXEDFILEINFO {$/;"	s
+ticktick	./mystate.c	/^void ticktick()$/;"	f
+timeout	./myconfig.c	/^unsigned timeout = D_TIMEOUT;		\/* 超时间隔 *\/$/;"	v
+ts	./dlfunc.h	/^	struct timeval ts;$/;"	m	struct:pcap_pkthdr	typeref:struct:pcap_pkthdr::timeval
+userName	./myconfig.c	/^char userName[ACCOUNT_SIZE] = "";	\/* 用户名 *\/$/;"	v
+version	./myfunc.c	/^u_char version[2];	\/* 版本 *\/$/;"	v
+wLength	./mycheck.h	/^	WORD	wLength;$/;"	m	struct:_VS_VERSIONINFO
+wType	./mycheck.h	/^	WORD	wType;$/;"	m	struct:_VS_VERSIONINFO
+wValueLength	./mycheck.h	/^	WORD	wValueLength;$/;"	m	struct:_VS_VERSIONINFO
+waitEchoPacket	./mystate.c	/^static int waitEchoPacket()$/;"	f	file:
